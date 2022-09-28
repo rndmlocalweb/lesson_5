@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,100&display=swap');
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-BookItalic.woff2") format("woff2"), url("../fonts/CircularStd-BookItalic.woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: italic;
+}
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Book.woff2") format("woff2"), url("../fonts/CircularStd-Book.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face { 
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Medium.woff2") format("woff2"), url("../fonts/CircularStd-Medium.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Bold.woff2") format("woff2"), url("../fonts/CircularStd-Book.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Black.woff2") format("woff2"), url("../fonts/CircularStd-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+body {
+	font-family: Roboto;
+	font-weight: 100;
+	font-style: italic;
+}
+#top {
+color: red;
+}
+.article__one {
+font-family: CircularStd;
+font-weight: 400;
+font-style: normal;
+	color: rgba(87, 34, 151, 0.8);
+	text-align: center;
+	text-decoration: line-through;
+}
+.article__two {
+text-align: right;
+text-decoration: overline;
+
+}
+.chart {
+	width: 700px;
+
+}
+.chart__one {
+	text-transform: capitalize;
+}
+.chart__two {
+	text-decoration: underline;
+	text-shadow: 2px 2px 1px red, -5px -3px 10px blueviolet;
+	text-transform: lowercase;
+}
+.chart__three {
+	text-transform: uppercase;
+}
+.chart__four {
+	font-family: CircularStd;
+	font-weight: 900;
+	font-style: normal;
+}
+.chart__five {
+	font-family: CircularStd;
+	font-weight: 400;
+	font-style: italic;
+}
+.article__salary {
+	text-decoration: underline;
+}
+.chart-second {
+	line-height: 2;
+	text-indent: 10px;
+	margin: -10px;
+}
+.chart-second__one {
+	letter-spacing: 5px;
+}
+.chart-second__two {
+	padding-right: 30px;
+}
+.chart-second li {
+	color: blue;
+}
+.chart-second .chart-second__three {
+	padding: 20px 30px 40px 50px;
+	color: yellow;
+}
+.paragraph {
+	white-space: nowrap;
+	word-spacing: 20px;
+	padding-top: 50px;
+	padding-left: 20px;
+	padding-bottom: 30px;
+}
+.paragraph + p {
+	color: aquamarine;
+}
+.paragraph > p {
+	color: crimson;
+}
+.paragraph__one {
+}
+.paragraph__two {
+}
